@@ -5,7 +5,7 @@ on:
 
 jobs:
   build:
-    runs-on: [self-hosted, Linux, X64, dev, standard]
+    runs-on: [self-hosted, linux, x64, dev, standard]
     strategy:
       matrix:
         python-version: ["3.8", "3.9", "3.10"]
